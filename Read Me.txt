@@ -1,0 +1,19 @@
+
+READ ME
+
+to use the map generator, run the affichage.py code. 
+it asks for 2 user inputs: 
+  the first is an integer between 0 and 5, that determines the size of the map, with 0 being smallest. 
+  the second is an integer between 0 and 3 that determines the difficulty of the dungeon, with 0 being easiest. 
+the map should then be generated as an image file called matrice_finale_aggrandie.png
+
+
+code written by Soleia Marietti: 
+  correction.py : ensures that all paths are connected when the array without events in generated
+  affichage.py : takes in the final array, turns it into an array of pixels and turns that into an image file
+
+code written by Lohann Colle: 
+  array_generation.py: takes in user input, generates the 2 prompts for GPT4o, parses them, adds the events into the corrected array, and returns that to affichage.py
+
+
+video link: https://youtu.be/g6_oHNObBW0
